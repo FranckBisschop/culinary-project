@@ -1,7 +1,7 @@
-# culinary-project
+# Culinary-project
 
-ce projet consist a creer une application  comportant des recettes  en rapporet avec le thermomix , faire une alternativce de cookidoo en améliorant plusieur fonctionalitées et en modifiant le refonte du  site.
+ce projet consist a creer une application  comportant de recettes  en rapport avec le thermomix, créer une alternative de cookidoo en améliorant plusieur fonctionalitées et en modifiant la refonte du  site.
 
-#  étape 1
+# étape 1
 
-creer les routes express
+créer les routes ```express``` en ne creant qu'une seule route pour afficher "HELLO WORLD" sur ma page d'accueil.
