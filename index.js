@@ -15,4 +15,4 @@ app.use(router);
 //Je lance mon server et je le test dans ma console
 app.listen(PORT, () => {
     console.log(`You can launched the server on http://localhost:${PORT}`)
-})
+});
