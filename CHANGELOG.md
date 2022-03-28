@@ -6,7 +6,7 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
-## [0.0.1] - 2014-05-31
+
 
 ### Added
 
@@ -15,6 +15,7 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Création d'un serveur Node avec express
 - Création d'une route ``` ' / ' ``` qui répond à ``` Hello World ``` .
 - initialisation du projet grâce à ``` npm init -y ```
+- installation des dépendances ``` dotenv ``` , ``` express ```
 
 
-[0.0.1]:
+[Unreleased]:https://github.com/FranckBisschop/culinary-project/blob/main/CHANGELOG.md
