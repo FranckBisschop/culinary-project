@@ -1,6 +1,7 @@
 # Culinary-project
 
-ce projet consist a creer une application  comportant de recettes  en rapport avec le thermomix, créer une alternative de cookidoo en améliorant plusieur fonctionalitées et en modifiant la refonte du  site.
+Ce projet consiste à créer une application  comportant des recettes en rapport avec le thermomix.
+Créer une alternative de [cookidoo](https://cookidoo.fr/foundation/fr-FR) en améliorant plusieur fonctionalitées et en modifiant la refonte du  site.
 
 # Info
 
@@ -9,6 +10,6 @@ ce projet consist a creer une application  comportant de recettes  en rapport av
 - L'URL pour lancé le projet est `http://localhost:4000`
 
 
-# étape 1
+# Étape 1
 
 créer les routes ```express``` en ne créant qu'une seule route pour afficher "HELLO WORLD" sur la page d'accueil.
