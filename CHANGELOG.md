@@ -8,6 +8,16 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Added
 
+- Installation de `jest` en tant que dev-dependency.
+- création d'un test unitaire.
+- Mise à jour du du script dans le `.json` en créant un ``` "scripts": {
+    "test": "jest"
+  }, ``` qui permettra de lancer `jest`
+
+## [0.0.2]
+
+### Added
+
 - Amélioration du Fichier README en indiquant différent détails de base comme la version de NodeJS utilisé, la commande pour lancer le projet ainsi que l'URL où se rendre pour lancer le projet.
 
 ## [0.0.1]
@@ -24,3 +34,4 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 [Unreleased]:https://github.com/FranckBisschop/culinary-project/blob/main/CHANGELOG.md
 [0.0.1]:https://github.com/FranckBisschop/culinary-project/blob/main/README.md
+[0.0.2]:https://github.com/FranckBisschop/culinary-project
