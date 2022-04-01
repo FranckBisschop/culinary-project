@@ -1,4 +1,6 @@
-const {theTruth} = require('./index')
+const theTruth = () => {
+    return true
+}
 
 describe('ma première suite de tests', () => {
   test('mon premier test', () => {
