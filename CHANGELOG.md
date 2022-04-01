@@ -6,7 +6,11 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+### Added
 
+- Amélioration du Fichier README en indiquant différent détails de base comme la version de NodeJS utilisé, la commande pour lancer le projet ainsi que l'URL où se rendre pour lancer le projet.
+
+## [0.0.1]
 
 ### Added
 
@@ -19,3 +23,4 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 
 [Unreleased]:https://github.com/FranckBisschop/culinary-project/blob/main/CHANGELOG.md
+[0.0.1]:https://github.com/FranckBisschop/culinary-project/blob/main/README.md
