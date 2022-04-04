@@ -4,7 +4,7 @@ Toutes les modifications notables apportées à ce projet seront documentées da
 
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) , et ce projet adhère à [Semantic Versioning](https://semver.org/spec/v2.0.0.html) .
 
-## [Unreleased]
+## [0.0.2]
 
 ### Added
 
@@ -13,12 +13,8 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Mise à jour du du script dans le `.json` en créant un ``` "scripts": {
     "test": "jest"
   }, ``` qui permettra de lancer `jest`
+- Création du fichier procfile
 
-## [0.0.2]
-
-### Added
-
-- Amélioration du Fichier README en indiquant différent détails de base comme la version de NodeJS utilisé, la commande pour lancer le projet ainsi que l'URL où se rendre pour lancer le projet.
 
 ## [0.0.1]
 
@@ -30,6 +26,7 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Création d'une route ``` ' / ' ``` qui répond à ``` Hello World ``` .
 - initialisation du projet grâce à ``` npm init -y ```
 - installation des dépendances ``` dotenv ``` , ``` express ```
+- Amélioration du Fichier README en indiquant différent détails de base comme la version de NodeJS utilisé, la commande pour lancer le projet ainsi que l'URL où se rendre pour lancer le projet.
 
 
 [Unreleased]:https://github.com/FranckBisschop/culinary-project/blob/main/CHANGELOG.md

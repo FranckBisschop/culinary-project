@@ -1,6 +1,6 @@
 {
   "name": "culinary-project",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "ce projet consist a creer une application  comportant de recettes  en rapport avec le thermomix, créer une alternative de cookidoo en améliorant plusieur fonctionalitées et en modifiant la refonte du  site.",
   "main": "index.js",
   "scripts": {
