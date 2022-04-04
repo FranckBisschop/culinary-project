@@ -12,4 +12,4 @@ Créer une alternative de [cookidoo](https://cookidoo.fr/foundation/fr-FR) en am
 
 # Étape 1
 
-créer les routes ```express``` en ne créant qu'une seule route pour afficher "HELLO WORLD" sur la page d'accueil.
+créer les routes ```express``` en ne créant qu'une seule route pour afficher "HELLO WORLD" sur la page d'accueil. 
