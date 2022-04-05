@@ -4,6 +4,15 @@ Toutes les modifications notables apportées à ce projet seront documentées da
 
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) , et ce projet adhère à [Semantic Versioning](https://semver.org/spec/v2.0.0.html) .
 
+## [0.0.3]
+
+### Added
+
+- Installation des dependances MongoDB et Mongoose
+- Initialisation de MongoDB et Mongoose
+- Création du BDD
+- Création du fichier sutdent.js pour tester la BDD avec Mongoose
+
 ## [0.0.2]
 
 ### Added
