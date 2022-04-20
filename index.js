@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
+const morgan = require ('morgan')
 
 const app = express();
 
@@ -19,6 +20,7 @@ MongoClient.connect(url, function(err, client) {
 });
 
 app.use(router);
+app.use(morgan('combined'));
 
 
 app.listen(PORT, () => {
