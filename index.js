@@ -22,6 +22,18 @@ MongoClient.connect(url, function(err, client) {
 app.use(router);
 app.use(morgan('combined'));
 
+app.post('/create-recipe', (req,res) => {
+  console.log('got body:', req.body);
+  res.status(201).json({status:"sucess"})
+});
+
+db.recipe.insertOne(
+  recipe,
+  {
+     writeConcern: recipe
+  }
+);
+
 
 app.listen(PORT, () => {
    console.log(`You can launched the server on http://localhost:${PORT}`)
