@@ -7,7 +7,7 @@ const morgan = require ('morgan')
 const app = express();
 
 
-const router = require('./app/router');
+const router = express.Router();
 
 const PORT = process.env.PORT || 4000
 
@@ -21,22 +21,16 @@ MongoClient.connect(url, function(err, client) {
 
 app.use(router);
 app.use(morgan('combined'));
+app.use(express.json());
 
-app.post('/create-recipe', (req,res) => {
-  console.log('got body:', req.body);
+app.post('/recipe', (req,res) => {
+  recipe.push(req.body);
   res.status(201).json({status:"sucess"})
 });
 
-db.recipe.insertOne(
-  recipe,
-  {
-     writeConcern: recipe
-  }
-);
-
 
 app.listen(PORT, () => {
-   console.log(`You can launched the server on http://localhost:${PORT}`)
+   console.log(`server ready on http://localhost:${PORT}`)
 });
 
 
