@@ -8,4 +8,3 @@ describe('ma première suite de tests', () => {
     expect(isTrue).toBe(true)
   })
 })
-

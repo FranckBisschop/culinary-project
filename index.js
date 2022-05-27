@@ -25,7 +25,7 @@ app.use(router);
 app.use(morgan('combined'));
 app.use(express.json());
 
-async function run() {
+async function newRecipe() {
   try {
     await client.connect();
     const database = client.db("insertDB");
@@ -43,7 +43,8 @@ async function run() {
     await client.close();
   }
 }
-run().catch(console.dir);
+newRecipe().catch(console.dir);
+module.exports = {newRecipe}
 
 app.post('/recipe', (req,res) => {
   res.status(201).json({status:"sucess"})
