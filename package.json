@@ -4,7 +4,7 @@
   "description": "ce projet consist a creer une application  comportant de recettes  en rapport avec le thermomix, créer une alternative de cookidoo en améliorant plusieur fonctionalitées et en modifiant la refonte du  site.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "node index.js"
   },
   "repository": {
@@ -20,8 +20,8 @@
   "homepage": "https://github.com/FranckBisschop/culinary-project#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "mongodb": "^4.5.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
