@@ -7,7 +7,7 @@ const morgan = require ('morgan')
 const app = express();
 
 
-const router = express.Router();
+const router = require('./app/routers');
 
 const PORT = process.env.PORT || 4000
 
